@@ -1,0 +1,155 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hey", "Hello", "Good day","How r u?"],
+			"responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["Bye", "See you later", "Goodbye"],
+			"responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["thanks", "thank you for the information", "thank you"],
+			"responses": ["My pleasure, can I help you with anything else?"]
+		},
+		{
+			"tag": "different",
+			"patterns": ["What is the difference between IT, CCE and CSE?", "How is CCE different from IT and CSE","What is CCE at MIT Manipal? What is its scope compared to CSE and IT? "],
+			"responses": ["All the three branches(CCE,IT and CSE ) are computer science related and there is no much difference when it comes to the basics. All the three branches students will be learning JAVA, Data Structures and algorithms in their 2nd year. The main difference comes in 3rd Year. CSE focuses on subjects like Formal language and automata theory, database systems and microprocessors. CCE mainly focuses on advanced subjects like advanced programming technologies (python and ruby), embedded systems, and network technologies. IT too is similar to CCE just that it has more of application oriented subjects. ","CSE focuses on tested subjects like Formal Language and Automata, Microprocessors, Computer Architecture,DBMS,etc. Though I must add that these subjects aren't sought after if you aren't too interested in them. However these core subjects are helpful if you are interested in the Science of Computer. IT focuses on subjects like Software Design, DBMS, Data Warehousing,etc. Data Science is a particularly sought after field these days with an ample number of startups involved in this area. CCE focuses on subjects like Network Technologies, Advanced Programming(Python and Ruby), Embedded Systems,Data Mining,Data Warehousing, Cloud Computing,DBMS. I don't have to tell an informed person that these are some of the best fields to be involved in. Besides in IT and CCE you have the opportunity of developing a multi dimensional profile. ","CCE stands for Computer and Communication. It is basically what you get if CSE and ECE ever decide to have kids. It is a branch offered by not more than 5 colleges across India, and MIT Manipal may just be the one that introduced it. It comes under the domain of the department of Information and Communication Technology, MIT. Mind you, the Department of Computer Science and Engineering, MIT is different. Though this branch doesn't have a lot of national or international recognition at the moment, this is changing at a rapid pace. It is relatively new but is proving to be a success. At MIT, most companies that welcome CSE and IT students, also allow CCE students for placement interviews. Placement statistics are not huge, since the branch is fresh, and yet the couple of batches that have gone into placements have succeeded in being noticed by the companies. Cisco is one company that picked up more CCE students than it did from CSE and IT combined. The course plan is independent, and naturally includes topics about computers and communication technology. For more details, visit the college website. Do not disregard the branch simply because it's relatively new. Some of the smartest students are currently studying CCE at MIT Manipal. ","As far as the basic subjects such as Object Oriented programming, Data Structures, Algorithms, Database Systems, etc are concerned, both the branches deal with these subjects and almost up to the same depth. The difference arises with the reaming subjects where CCE is more communication centric, each sem definitely has at least one communication subject(Wireless networks, High Speed Networks, Ad-hoc networks,etc) where as CSE will keep their focus to the core computer science subjects such as Computer Architecture, Autometa theory, Compiler design, etc. So I wouldn’t say CCE is better than CSE or the vice-versa because CCE has the advantage of learning advanced concepts related to communication, something towards which the world is heading towards whereas CSE has the advantage of learning advanced computer science fundamentals, something which will always be essential. As far as your superior and inferior question goes, you would have to specify in what aspect? As far as the subjects are concerned, I have made it clear that each branch has its own advantages. As far as placements are concerned to my knowledge both have almost the same opportunity. Yes CCE might have a slightly lesser recognition and that's because its still in the very early stages as a branch compared to IT and CSE. In case few companies don’t make CCE eligible for recruitment, it will only be a matter of time before they will as CCE has core software development concepts. "]
+		},
+		{
+			"tag": "how is cce",
+			"patterns": ["How is the computer and communication engineering branch at Manipal? ", "How is the CCE branch at manipal","how is the CCE branch?"],
+			"responses": ["The CCE branch at Manipal comes under the ICT department. It is a really good branch with faculty well versed in advanced domains. This branch focuses more on communication and networking subjects."]
+		},
+		{
+			"tag":"how is ece",
+			"patterns":["How is ECE in MIT Manipal? ","how is the electronics and communication branch?","how is the ece branch at mit?","is the ece branch good?","how is ece?"],
+			"responses":["Too Good. Good faculty, labs and placements(6 and 7 digits both). A bit difficult curriculum but its all worth it at the end. High value and great demand. "]
+		},
+		{
+			"tag":"100 percent placement",
+			"patterns":["Does the Manipal Institute provide 100% placements? ","Does MIT provide 100% placement?","Does MIT provide hundered percent placement?","Does MIT gaurantee 100 % placement?"],
+			"responses":["No absolutely not. None of the branches have 100% placement. However as long as you have the passion to do something, you will definitely succeed. But if you want figures I would say overall Manipal has about 60 to 70% placements (including mass recruitment). For CSE/CCE/IT the figures are above 95%. For ECE it must be about 80–90%. Other branches are a bit low but definitely more than 50%. 10% of the students opt for higher studies. Most of them don’t even sit for campus placements. MITians have made it to Stanford, Berkeley, CMU and the likes. Many others apply in companies off-campus and most of them get it. A small fraction of students become entrepreneurs or join their parents businesses. Some take a years drop and prepare for some other exams like IAS, ICS, etc. Very few get year backs but eventually clear them, graduate and start working somewhere or the other. Those who don’t fall in any of the above categories are doing absolutely nothing with their life. They are in such a situation because they don’t care about anything. Rest assured, MIT provides various opportunities for getting placed. It’s up to you to make it happen. All the best :)"]
+		},
+		{
+			"tag": "placement",
+			"patterns": ["How is the placement for CCE","How are the placements?","how are the placements?","how are the cce placements?", "What is the placement situation for CCE","how is the placement opportunity?","What about placements for CCE?","how are placements for cce?"],
+			"responses": ["Placement is good. All eligible students are getting placed in good companies."]
+		},
+		{
+			"tag":"placement for ECE students",
+			"patterns":["How are the placements for ece?","How are the placements of ECE students at Manipal University main campus? ","How are the placements foe ECE students at MIT?"],
+			"responses":["The placements of ECE in MIT Manipal are decent. I am a 2016 batch passout(latest). ECE’s placements are not as good as CSE or IT. The average package would be somewhere around Rs. 500,ooo p.a. Lowest around Rs. 340,000 p.a. Highest around 1,200,000 p.a. Most of the students get more than one offer. Placements from ECE are into core, software, IT services, financial sector, sales etc. ","To begin with, somehow not a lot of core companies visited MIT in 2014 for hiring from the ECE department. As far as I can recall, the only good company with a decent package (~10 LPA) was Freescale Semiconductors. It offered 3 or 4 full time positions and the rest were taken as interns. The other core companies like Phillips, unfortunately did not come for core profiles. They recruited two people for Sales and Marketing roles. Hence, about 90% of ECE undergrads had to take up jobs in the IT sector or as Analysts. I won't say that these jobs are in any way menial or not worth taking up : Average salaries range from 4-6 LPA and some of the names are really big. However, if you still are in a position to decide your branch, my suggestion would be simply .NO! Do not opt for ECE in MIT. You will slog through your college life trying to compete with at least fifteen 9 pointers and twenty five 8 pointers in your section, trying to mug up humongous amounts of study material; and eventually fight it out with students from CS and IT backgrounds, for IT jobs. A lot of those extremely hard working 9 pointers are now working for Mass Recruiting Companies with really meagre salaries. Not that they weren't good enough, but because the stringent course and competition left them with no time to be good at other things. I hope this will help. I have absolutely no idea about this year's placements and would be glad if someone can shed light on that. "]
+		},
+		{
+			"tag":"placement for ECE and EEE",
+			"patterns":["How are placements for EEE and ECE students at Manipal?","How are placements for EEE and ECE ?"],
+			"responses":["The placements for both EEE and ECE at the Manipal campus are really good. To list down a few companies.For ECE - Siemens Tech. ,Cisco ,Sandisk ,HP R&D ,General motors ,Wipro ,IBM ,Mu sigma .I cannot list down the names of all the companies as there a lot more. The average package is generally around 4–5 l.p.a.  For EEE- IBM ,Reliance ,Tata power ,Wipro ,Phillips ,Fiat ,Mu Sigma .Again, I am not listing down all the companies. This is just to give you an idea. "]
+		},
+		{
+			"tag": "Masters",
+			"patterns": ["Can passed out students go for Master’s program outside country?","Are passed out students eligible to go for Master's outside India?","Can passout students go for Master’s program outside country?","Are passed out students eligible to go for Master's outside the country?"],
+			"responses": ["Yes, definitely. Students will have plethora of options to study masters in India and abroad."]
+		},
+		{
+			"tag": "GATE",
+			"patterns": ["Whether separate paper exists for GATE exam or they need to write the paper of Computer Science?","is there a separate GATE paper for CCE pass outs?","Is there a seperate paper for cce students?"],
+			"responses": ["As of now there is no separate paper for CCE in GATE exam, Students will have to write the paper of computer science. But for a student who is pursuing a Computer Science related degree, learning 1-2 courses more shouldn’t pose a problem Syllabus:(http://www.gate.iitg.ac.in)"]
+		},
+		{
+			"tag": "government",
+			"patterns": ["What is the scope in government sector?","Whst is the scope in govt sector?","Are CCE students eligible for jobs in the government sector?","Are CCE students eligible for jobs in the govt sector?","can students apply for government jobs","can cce passout students apply for government jobs?"],
+			"responses": ["CCE students get equal opportunities in government sector."]
+		},
+		{
+			"tag": "ratio",
+			"patterns": ["What is the ratio of girls and boys in the class?","ratio of boys and girls?"],
+			"responses": ["As of now majority of the branch is of boys, but the number of girls are not less, there is nearly a 3:2 ratio."]
+		},
+		{
+			"tag": "entrepreneur",
+			"patterns": ["What is the prospect of becoming entrepreneur after completing the course?","what are the opportunities for a budding entrepreneur","is entrepreneurship encouraged?"],
+			"responses": ["one can become an entrepreneur if he/she wishes. Curriculum provides open electives and program electives as a platform to innovate the ideas and Incubation Center of MAHE nourishes the innovative ideas by supporting to start the company. "]
+		},
+		{
+			"tag": "package",
+			"patterns": ["What is the average package and highest package of CCE?","what is the package?"],
+			"responses": ["CS/IT/CCE — Core companies - 10–15 LPA. Highest can go to 25 LPA and lowest around 4 LPA. ECE — Ece students, in some cases, can also apply to CS companies and get the same package as above. For EC core it's around 8–10 LPA and highest around 15LPA. EEE — almost the same as ECE but might not be able to sit for CS companies. Average around 8LPA. Mechanical — very few core companies with average package of around 8 LPA. Civil/Industrial — almost zero core companies, average around 5–6 LPA. These were for core companies. There will be non-core companies which are involved in digital marketing, management, business solutions, data analytics, consulting. Some examples are - KPMG, PWC, ZS and Deloitte. All branches can sit for these and the average is around 4–8 LPA. Few companies provide only internship for all branches and give a stipend of around 20k - 70k per month. ","The CS branch of MIT Manipal , out of all the branches , has probably the best placement scenario. I could not get the data for the last year , but you can have a look at the placement statistics of the year 2014 to 2015 The average package for CS is around 5 to 5.5 l.p.a. The highest package can go upto 20 l.p.a. or even more. While it is undoubtedly important to know about the placement scenario before choosing a branch , I suggest you should not make it a deciding factor and should also have a look at the course of the branch you want to choose and see if you are interested in it. From my experience, the only time a student thinks of placements is either before joining the college or in the 7th semester. "]
+		},
+		{
+			"tag": "companies",
+			"patterns": ["Whether the companies which are coming for CSE are coming for CCE?","do companies prefer CSE students over CCE students for placements?"],
+			"responses": ["all the companies that come for CSE recruitments also come to CCE."]
+		},
+		{
+			"tag": "specializations",
+			"patterns": ["What are different specializations available in CCE?","what kind of specializations are there?","how many specializations?","how many specializations are available?","what kind of specializations are available?"],
+			"responses": ["Advanced Network Systems(Mobile computing), Big Data Analytics, Machine learning, Artificial intelligence, Soft Computing, Computer Vision and many more."]
+		},
+		{
+			"tag": "project",
+			"patterns": ["How is the practical / Project exposure in CCE?","Are students encouraged to create projects?","are there projects available for the students?"],
+			"responses": ["The branch provides a lot of options for projects in regular and specialized domains. The branch gives more importance to practical approach and projects. Most of the faculty have good publications, patents and are currently working on emerging technologies, so working under them on research is always  a good exposure."]
+		},
+		{
+			"tag": "AICTE",
+			"patterns": ["Is CCE course AICTE approved?","Is it AISTE approved","Is it approved by any education programme"],
+			"responses": ["Yes it is AICTE approved."]
+		},
+		{
+			"tag":"vit vs mit for CSE",
+			"patterns":["Vit cse or manipal cse I am getting both","what to choose between cse at mit and cse at vit?"],
+			"responses":["If merit: Definitely VIT Vellore. You will pay half of what your peers at Manipal will. Getting CSE at VIT Vellore campus is tougher than at Manipal (No offence to anyone), hence slightly better peers. The academic flexibility and comparatively better curriculum are a few other advantages. Bonus:Better alumni network and more MoUs with universities abroad. I know we get a lot of hate by Manipalites for having a restrictive campus and a lot of other baseless rumours, but trust me, people who say VIT is a jail have never been to the campus. The campus life here is like any other fairly liberal college, probably the most liberal in the state. I agree that the in times can be shifted to later hours but it won’t be a herculean task adjusting to these rules. In fact, you will love hostel life once you find the right company. "]
+		},
+		{
+			"tag":"vit vs mit for ECE",
+			"patterns":["Vit ece or manipal ece I am getting both","what to choose between ece at mit and ece at vit?"],
+			"responses":["If you are planning for join private engineering institute, I will suggest Manipal is the place for you. As per the QS World University Ranking 2018, Manipal is top private Indian universities. Talking about reputation, Manipal University has a more global reputation that any other Indian private university, either in terms of research or academics. There is one other point which makes Manipal a far more superior that VIT or any other private university of the country is its strong alumni network. First, it was Satya Nadella taking over as Microsoft CEO. Then it was Rajeev Suri CEO of Nokia. Like Satya Nadella, Rajeev Suri CEO of Nokia holds a B-Tech from Manipal Institute of Technology (MIT), Manipal University, fast gaining popularity as India's Massachusetts Institute of Technology. Other eminent alumni of Manipal include Vikas Khanna (Michelin-starred chef), Maneet Chauhan (judge at American cooking show, Chopped), Hari Nayak (renowned Indian food and culinary consultant), Mr Devi Shetty (chairman and Founder of Narayana Health), Sarthak Paul (founder of Mean Metal Motors building India’s first supercar M-Zero) among many others. If you compare facilities for students at Manipal with any other universities in the country, you will realize why Manipal is one of the most prestigious university at the global level. "]
+		},
+		{
+			"tag":"IT at mit",
+			"patterns":["How is IT in the Manipal main campus? ","Is the IT branch good?","how is the it branch?"],
+			"responses":["1. The teaching staff. They are really helpful and supportive. Many stay after-hours to help out students with both academic as well as outside curriculum stuff. The majority of staff is young and enthusiatic and up-to date with the trending technologies. 2. Students are encouraged to participate in research and innovative thinking. There are unique initiatives by the department for students helping them both for placements as well as masters. 3. Talking about placements, the department has had 100% record for the past few years (out of those eligible). For those who arent eligible, its not difficult to find off-campus opportunities provided you are really weak academically and conceptually. 4. A large amount of teachers are involved in research (one of the top few branches) actively involved in research. A significant portion of research activities in MIT's Innovation Center is handled by this department. Students have very easy access to these resources. 5. Weightage and importance to practical learning is given significantly (higher credits). I think the system has slightly changed since last year since juniors.. Check up on that. 6. Resources such as labs etc are open late till evening, provided you have permission from the department. 7. There have been recent changes brought about in the syllabus bringing in interesting and latest topics including Cloud Computing, Data Mining, Artificial Intelligence etc. ","I’m a Chemical Engineering student in MIT, so I can give you a brief idea of the IT department as the details are not known to me. I have a few friends in IT and according to their feedback it is comparatively easier than CSE and CCE. The faculty is average, as it would be in any other college. You have to keep in mind that in coding related streams, curriculum knowledge is needed, but your co-curriculum and the extra courses you do will matter also. IT is one of the most sort after streams along with CSE, ECE and Mechanical and is overall a good stream to choose. The average package is like 4lpa and core companies like Microsoft, Oracle, Sandisk, Amazon etc come for recruitment. "]
+		},
+		{
+			"tag":"IT or EEE",
+			"patterns":["IT or EEE at Manipal Institute of Technology? ","Is IT better than EEE","which is btter, IT or EEE?"],
+			"responses":["Totally depends on your personal interest. I will share my experience with you. I was at the same stand 4 years back at MIT. I took ECE as my branch in counselling but then studying the subjects of this branch made me feel that it just isnt my cup of tea and i cannot study that for coming years so i applied for branch change. I wanted to go into computers field. I couldn't get through CSE though but luckily got seats in IT. IT is a very good branch. Teachers are supportive and helping. So, Choose wisely and do what you really wanna do. Good luck."]
+		},
+		{
+			"tag":"IT at MIT or CSE at SRM",
+			"patterns":["Which is better IT branch Manipal Institute Of Technology (MIT) or CSE SRM Institute of Science and Technology? ","what to choose from IT branch at MIT or CSE branh at SRM"],
+			"responses":["I would suggest that you have a close look at the placement records of both colleges (CSE at SRM and IT at Manipal). In Manipal, almost all companies who accept applications from CSE students also accept the same from those in the IT branch, although with a slightly higher cgpa cut off. This, in my opinion, is the deal maker in Manipal's favour. Leaving academics aside, I can promise you that if you make the right choices, the exposure in terms of networking opportunities, co curricular activities and technical projects that you will receive at manipal will be of very high value to your career in the future. There is a program called the MUTBI present, through which the unoversity funds credible startups. Also, manipalites enjoy the best campus life in India. Period. P.S. - please remember the part about making the right choices. All the best for your engineering career! "]
+		},
+		{
+			"tag":"Data Science Enginneering branch at MIT",
+			"patterns":["How is a B.Tech in Data Science and Engineering (DSE) at Manipal Institute of Technology, Manipal? ","Is the DSE branch at MIT, manipal good?","how is the DSE branch at MIT?"],
+			"responses":["Not recommended. Presently NO building in the world is producing any skilled-employable Data Scientist. So, NO. You shall not be able to get a job as a data scientist after pursuing such courses. There is infinite demand of data scientists in all the developed countries of the world, even without any school or college degrees, who have practice computer programming for 5+ years through this way. "]
+		},
+		{
+			"tag":"is ECE branch good?",
+			"patterns":["Is ECE good at Manipal? ","How is ECE at manipal? ","Is it really difficult to do ECE at Manipal? Why or why not? "],
+			"responses":["Yes. After studying ECE for two years in MIT, I can tell you that it is a really good course. Here are a few things you need to know about the course- Faculty -The faculty for this Department is good. Most of the teachers are really nice and helpful, whether it is about their way of teaching or clearing your doubts personally. Some of them,infact, encourage students repeatedly to approach them to get their doubts cleared.There are teachers who have research papers published in both national and international journals under their names. So are they knowledgeable?Yes, definitely. Some teachers are a bit cranky and short tempered. All you have to do is keep your calm in front of them. Course structure and Projects -The course structure is pretty good.As I have just completed my second year, I can tell you that there is a good balance between digital , analog and communication part. The Department offers minor specializations in some of the subjects that you study throughout your course. So if you like any of those subjects , you can go for a minor specialization in your third year which will add value to your CV. We get one project every semester as a part of our curriculum. Apart from this , you can always approach a faculty who is doing some research in a particular field and you can work with them. The labs are very well-equipped. You will get to learn a lot if you put in efforts during the labs. There is no concept of spoon feeding in labs and for most of the times the lab incharge is not even bothered about your experiment. You get access to all the tools and softwares that you need to develop your skill set. All you have to do it show interest. Difficulty :I will be honest here. ECE is one of the most difficult branches. The course itself is really difficult and if you do not pay attention in class, you will just make it worse for yourself. The idea of last minute study does not help. You might end up failing the subject if you do not study regularly. You can maintain a good score if you pay attention in all the lectures, go to class regularly and make proper notes. Class notes. Mark my words. Class notes are very important,atleast for this branch. You cannot just read through the books in the last week and expect a good score. The concept of self study in the last moment never helps. So if you actually try to understand and learn things , and are ready to put in some extra efforts , then you can learn a LOT. Just make sure that you are interested in learning this course otherwise it could become a struggle for you. I have so many people from ECE around me who are part of projects and still have a good CGPA. The course has a lot to offer. It all depends on you. ","ECE in Manipal(can't say for other colleges) is no cakewalk. Passing is easy enough but getting a good GPA requires hard work(no comments on the amount of brain required). Let's just say that if other branches need you to atudy a week before the exam, you'll need to start 18-20 days in advance. The faculty for this Department is good. Most of the teachers are really nice and helpful, whether it is about their way of teaching or clearing your doubts personally. Some of them,infact, encourage students repeatedly to approach them to get their doubts cleared.There are teachers who have research papers published in both national and international journals under their names. So are they knowledgeable? Yes, definitely. Some teachers are a bit cranky and short tempered. All you have to do is keep your calm in front of them. The course has a lot to offer. It all depends on you. "]
+		},
+		{
+			"tag":"IT easier than CSE",
+			"patterns":["is IT branch easier than CSE branch?","is it easier than cse?"],
+			"responses":["Is IT easier? Well yes and no both. Lesser competition. Scoring labs. Lesser subjects. Easy-going teachers. And more practical experience via projects. BUT, more workload, a lot of tests, and over all more exhausting and frustrating than CSE (confirmed by having CSE roommates for 2 years). I'd still chose IT over CSE any day :P Weigh the pros and cons and chose yourself. OR, take CSE if you are eligible. It will still be considered 'better', if not easier."]
+		},
+		{
+			"tag":"EEE or Mechanical?",
+			"patterns":["What is better, EEE at MIT Manipal or Mechanical at MIT Manipal? ","What is better, EEE at MIT Manipal or Mechanical?","which is better, EEE or Mechanical","Is EE better than Mechanical?"],
+			"responses":["Both EEE and Mechanical department are doing really good here in MIT. If you are an average student and are responsible for your life and actions then you will end up really good. You have a lot of opportunities here in Manipal. It all comes down to you. What fascinates you more? Mechanics of engines, automobiles, power stations, thermodynamics, rocket science, building things. Or Electricals and electronics, how transformers work, how does the phone you are holding works, wifi, cellular networks, RAM of your laptop, electronics part of a robot or a machine, processor, how a satellite works, how people communicate, lan, Ethernet, Internet of things. We have great opportunities for both here in Manipal. It all comes down to you bud, tak this decision wisely. Just ask yourself. Few important points- Mechanical may have a little bit more exposure in Manipal, as compared to EEE. But EEE has the Electronics part which gives you an edge to the software and IT industry. If you love coding and aim to make it a career and couldn't get into CS IT ECE CCE then this is your branch to persue software industry. This is the reason that EEE might have better placement than Mechanical. And also, EEE is the toughest branch in Manipal. Its infamous for the back logs. If you are a responsible student then its not an issue for you. "]
+		},
+		{
+			"tag":"drop year",
+			"patterns":["Should I take EEE/ECE in MIT Manipal or drop a year? ","should I take a drop year"],
+			"responses":["Honestly speaking, I feel it's pointless to drop an year to get admitted into a better college like any IIT. Sure IIT has its own perks but MIT is also a really good college that has international outreach and exposure. I'd suggest you to take up your choice of branch in MIT and work hard from now to get good grades and industrial exposure. You will definitely do well. But if you strongly believe that IIT education is superior to any other college's education and if you want to drop an year, that's up to you. But you can spend that year in a better way, equipping yourself with the qualities and a mindset that an engineer should possess if you take admission right now. "]
+		}
+
+
+	]
+}

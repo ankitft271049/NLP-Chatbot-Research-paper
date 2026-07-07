@@ -1,0 +1,25 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+	<category>
+		<pattern>Hello *</pattern>
+		<template>
+			<random>
+				<li>Hello</li>
+				<li>Hi there, how can I help you</li>
+				<li>Hi, Good to see you</li>
+				<li>Hey</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>I am *</pattern>
+		<template>
+			Hello <set name = "username"> <star/>! </set>
+		</template>
+	</category>
+	<category>
+		<pattern>^bye</pattern>
+		<template>
+			Hi <get name = "username"/> Thanks for the conversation!
+		</template>
+	</category>cd de

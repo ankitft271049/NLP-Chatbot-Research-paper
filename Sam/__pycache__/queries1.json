@@ -1,0 +1,53 @@
+{
+	"queries":[
+		{
+			"tag":"different",
+			"question":"How is CCE different from CSE?"
+		},
+		{
+			"tag":"how is cce",
+			"question":"How is the CCE branch?"
+		},
+		{
+			"tag":"how is cce",
+			"question":"Is the CCE branch good?"
+		},
+		{
+			"tag":"how is ece",
+			"question":"How is the Electronics and communication branch at MIT?"
+		},
+		
+		{
+			"tag":"placement",
+			"question":"How are the placements for CCE?"
+		},
+		{
+			"tag":"Masters",
+			"question":"Can CCE students apply abroad for masters?"
+		},
+		{
+			"tag":"GATE",
+			"question":"What is the procedure for CCE students for appearing in GATE?"
+		},
+		{
+			"tag":"package",
+			"question":"What is the average package?"
+		},
+		{
+			"tag":"government",
+			"question":"Can CCE passout students apply for government jobs?"
+		},
+		{
+			"tag":"IT at mit",
+			"question":"How is the IT branch at MIT? "
+		},
+		{
+			"tag":"Data Science Enginneering branch at MIT",
+			"question":"How is the DSE branch at MIT?"
+		},
+		{
+			"tag":"drop year",
+			"question":"Should I take a drop year?"
+		}
+	]
+}
